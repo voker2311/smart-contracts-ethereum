@@ -20,7 +20,7 @@ contract Demo
   
   function deleteValue(int del) public
   {
-    value = value + del
+    value = value - del
   }
   
 }
